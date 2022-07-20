@@ -11260,7 +11260,7 @@ header.masthead .masthead-subheading {
 }
 
 header.masthead .masthead-heading {
-    font-size: 3.25rem;
+    font-size: 2.5rem;
     font-weight: 700;
     line-height: 3.25rem;
     margin-bottom: 2rem;
@@ -11278,10 +11278,10 @@ header.masthead .masthead-heading {
         font-style: italic;
         line-height: 2.25rem;
         margin-bottom: 2rem;
-        color: #000;
+        color: black;
     }
     header.masthead .masthead-heading {
-        font-size: 4.5rem;
+        font-size: 03rem;
         font-weight: 700;
         line-height: 4.5rem;
         margin-bottom: 4rem;
