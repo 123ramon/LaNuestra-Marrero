@@ -652,7 +652,7 @@ progress {
 }
 
 .img-fluid {
-    max-width: 100%;
+    max-width: 110%;
     height: auto;
 }
 
@@ -4411,7 +4411,7 @@ fieldset:disabled .btn {
 }
 
 .navbar-toggler {
-    padding: 0.25rem 0.75rem;
+    padding: 0.75rem 0.75rem;
     font-size: 1.25rem;
     line-height: 1;
     background-color: transparent;
@@ -8539,7 +8539,7 @@ fieldset:disabled .btn {
 }
 
 .rounded-circle {
-    border-radius: 50% !important;
+    border-radius: 25% !important;
 }
 
 .rounded-pill {
