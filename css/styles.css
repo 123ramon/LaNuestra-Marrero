@@ -686,7 +686,7 @@ progress {
 .container-lg,
 .container-md,
 .container-sm {
-    width: 100%;
+    width: 85%;
     padding-right: var(--bs-gutter-x, 0.75rem);
     padding-left: var(--bs-gutter-x, 0.75rem);
     margin-right: auto;
@@ -1355,7 +1355,7 @@ progress {
     }
     .col-lg-4 {
         flex: 0 0 auto;
-        width: 19.33333333%;
+        width: 33.33333333%;
     }
     .col-lg-4 page-section bg-light {
         flex: 0 0 auto;
@@ -11230,7 +11230,7 @@ p {
     }
     #mainNav.navbar-shrink .navbar-brand svg,
     #mainNav.navbar-shrink .navbar-brand img {
-        height: 1.5rem;
+        height: 1rem;
     }
     #mainNav .navbar-nav .nav-item {
         margin-right: 1rem;
@@ -11671,6 +11671,6 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 .footer {
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
