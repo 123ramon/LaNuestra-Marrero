@@ -753,7 +753,7 @@ progress {
 
 .row>* {
     flex-shrink: 0;
-    width: 100%;
+    width: 90%;
     max-width: 100%;
     padding-right: calc(var(--bs-gutter-x) * 0.5);
     padding-left: calc(var(--bs-gutter-x) * 0.5);
@@ -971,6 +971,7 @@ progress {
 @media (min-width: 576px) {
     .col-sm {
         flex: 1 0 0%;
+        align-items: center;
     }
     .row-cols-sm-auto>* {
         flex: 0 0 auto;
@@ -11261,6 +11262,7 @@ header.masthead .masthead-subheading {
     line-height: 1.5rem;
     margin-bottom: 25px;
     font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: #000;
 }
 
 header.masthead .masthead-heading {
