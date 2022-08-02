@@ -1,0 +1,42 @@
+.page-section {
+    padding: 6rem 0;
+    .container {
+        width: 85%;
+        padding-right: var(--bs-gutter-x, 0.75rem);
+        padding-left: var(--bs-gutter-x, 0.75rem);
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .section-heading {
+        font-size: 2.5rem;
+        margin-top: 50px;
+        margin-bottom: 1rem;
+    }
+}
+
+.row {
+    --bs-gutter-x: 4.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-0.5 * var(--bs-gutter-x));
+    margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+
+.portfolio-item {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    &:hover {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        width: 110%;
+        height: 100%;
+        background: grey;
+        align-items: center;
+        opacity: 0;
+        transition: opacity ease-in-out 0.25s;
+    }
+}

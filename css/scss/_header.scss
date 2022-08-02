@@ -1,0 +1,14 @@
+.navbar {
+    color: $yellow;
+    .nav-item {
+        color: $grey;
+        background-color: $grey;
+        border-color: #dee2e6 #dee2e6 #fff;
+    }
+    .nav-link {
+        color: $yellow;
+        &:hover {
+            color: #cca000;
+        }
+    }
+}
